@@ -23,6 +23,7 @@ void setup() {
 }
 
 void loop() {
+  Serial.println("Idle");
 val = digitalRead(inPin);  // read input value
 val2 = digitalRead(inPin2); 
 val3 = analogRead(inPin3); 
