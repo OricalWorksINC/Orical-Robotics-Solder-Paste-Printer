@@ -1,5 +1,8 @@
+//
+// Orical Industries Solder Paste Printer
+//
 // (c) 2016 John Reichard
-
+//
 
 #include <Stepper.h>
 
@@ -47,12 +50,12 @@ if (val3 == LOW); {
  ystepper.step(-ysteps);
  delay(1000);
   }
-  Serial.println("timeout");
-  }
-  }
-  }
-  }
 
+  }
+  }
+  }
+  }
+else { Serial.println("timeout"); }
 
 
  
